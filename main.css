@@ -25,7 +25,10 @@ h4 {
 section {
   padding: 2% 0;
 }
-header {
+i {
+  font-size: 4rem;
+}
+/* header {
   height: 90vh;
   background-color: lightgray;
   background-image: url(https://images.unsplash.com/photo-1565123409695-7b5ef63a2efb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80);
@@ -34,17 +37,18 @@ header {
   background-position: center;
   background-attachment: fixed;
   opacity: 95%;
-}
+} */
 
 nav {
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-decoration: none;
+  padding: 2%;
 }
 nav a {
   text-decoration: none;
   color: black;
   letter-spacing: 2px;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: bold;
 }
 header nav {
@@ -58,7 +62,6 @@ header nav {
 }
 h1 {
   font-size: 3.5rem;
-  font-style: normal;
   font-weight: bold;
 }
 
@@ -66,6 +69,7 @@ h2 {
   font-size: 2rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  text-align: center;
 }
 .logo {
   width: 30%;
@@ -79,45 +83,62 @@ h2 {
   align-items: center;
 }
 
-.welcome-text {
+/* .welcome-text {
   height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #c98986;
-}
-.main-title {
+} */
+/* .main-title {
   text-align: center;
   width: 40%;
   background-color: black;
   opacity: 90%;
   border-radius: 30px;
-}
+} */
 h1 {
   font-size: 2.9rem;
 }
 /* About Section Styles */
+
 #about {
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-image: url(https://images.unsplash.com/photo-1519861155730-0b5fbf0dd889?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 95%;
+  height: 70vh;
 }
 #about .text {
-  padding: 4%;
+  padding: 2%;
   text-align: center;
   width: 90%;
-  color: white;
+  color: whitesmoke;
+}
+.text p {
+  color: rgb(215, 209, 211);
 }
 .text h2 {
-  font-size: 3.8rem;
+  font-size: 4.8rem;
   color: #c98986;
+  text-transform: uppercase;
+  letter-spacing: 0.8rem;
+}
+.text h3 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
 }
 
 .text p {
   text-align: justify;
-  font-style: oblique;
+  font-style: normal;
+  font-size: 1.9rem;
 }
-
+/* Footer Style Starts*/
 .main-footer {
   display: flex;
   justify-content: left;
@@ -136,7 +157,9 @@ h1 {
   font-size: 1.8rem;
 }
 
-@media (max-width: 810px) {
+/* Media query */
+
+@media (max-width: 850px) {
   header nav {
     display: flex;
     flex-wrap: wrap;
@@ -145,9 +168,19 @@ h1 {
   .links {
     width: 100%;
   }
+  nav a {
+    font-size: 1.5rem;
+  }
+  h2 {
+    text-align: center;
+    font-size: 1.9rem;
+  }
+  .text p {
+    font-size: 1.5rem;
+  }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 600px) {
   header nav {
     display: flex;
     justify-content: center;
@@ -158,6 +191,7 @@ h1 {
   }
 
   h2 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    text-align: center;
   }
 }

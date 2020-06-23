@@ -1,24 +1,35 @@
+header {
+  height: 90vh;
+  background-color: lightgray;
+  background-image: url(https://images.unsplash.com/photo-1565123409695-7b5ef63a2efb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 95%;
+}
+
 .main {
   background-color: #ffffff;
   background-color: #ffffff;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   margin: 7em auto;
   border-radius: 20px;
 }
 
 .sign {
-  padding-top: 40px;
+  padding-top: 30px;
   color: #c98986;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 2.3rem;
+  font-size: 2.4rem;
 }
 .un {
   width: 76%;
   color: rgb(38, 50, 56);
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   letter-spacing: 1px;
   background: rgba(136, 126, 126, 0.04);
   padding: 10px 20px;
@@ -35,13 +46,13 @@
 }
 
 form.form1 {
-  padding-top: 40px;
+  padding-top: 30px;
 }
 .pass {
   width: 76%;
   color: rgb(38, 50, 56);
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   letter-spacing: 1px;
   background: rgba(136, 126, 126, 0.04);
   padding: 10px 20px;
@@ -59,7 +70,7 @@ form.form1 {
 
 .submit {
   cursor: pointer;
-  border-radius: 5em;
+  border-radius: 4em;
   color: #fff;
   background: black;
   border: 0;
@@ -76,7 +87,7 @@ form.form1 {
 .forgot {
   text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
   color: #e1bee7;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 a {
