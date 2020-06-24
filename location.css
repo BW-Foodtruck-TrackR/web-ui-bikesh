@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  /* border: 1px solid grey; */
+}
+
+.textLocation {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/153/588/original/vector-roadmap-location-map.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 95%;
+  height: 30vh;
+}

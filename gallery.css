@@ -27,6 +27,8 @@ nav {
 }
 img {
   border-radius: 20px;
+  height: 350px;
+  width: 280px;
 }
 
 .box {
