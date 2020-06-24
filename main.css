@@ -173,6 +173,9 @@ h1 {
   margin: 4%;
   height: auto;
 }
+.teamOne img {
+  border-radius: 100px;
+}
 .caption h3 {
   font-size: 1.4rem;
   color: #c98986;
