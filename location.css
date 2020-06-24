@@ -73,4 +73,11 @@ h1 {
     padding: 2%;
     font-size: 1.5rem;
   }
+  .stateContainer {
+    flex-direction: column;
+  }
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+  }
 }

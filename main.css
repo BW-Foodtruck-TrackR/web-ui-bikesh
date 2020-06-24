@@ -253,4 +253,8 @@ h1 {
   .teamOne {
     width: 35%;
   }
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+  }
 }
