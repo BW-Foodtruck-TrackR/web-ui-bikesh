@@ -27,8 +27,7 @@ nav {
 }
 img {
   border-radius: 20px;
-  height: 350px;
-  width: 280px;
+  object-fit: cover;
 }
 
 .box {
@@ -40,7 +39,7 @@ img {
 }
 .responsive {
   width: 100%;
-  height: auto;
+  height: 300px;
 }
 
 @media (max-width: 850px) {
