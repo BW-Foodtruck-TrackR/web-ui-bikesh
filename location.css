@@ -5,12 +5,16 @@
   max-width: 100%;
   /* border: 1px solid grey; */
 }
-.mainContainer {
-  background-image: url(https://images.unsplash.com/photo-1548345680-f5475ea5df84?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+
+#location-body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+#location-body main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .textLocation {
@@ -19,14 +23,19 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 40vh;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 h1 {
   text-transform: uppercase;
   font-size: 6rem;
-  text-align: center;
-  padding: 9% 9%;
   color: #c98986;
+}
+.stateContainer {
+  display: flex;
+  flex: 1;
 }
 
 .states {
@@ -34,7 +43,7 @@ h1 {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin: auto;
+  flex-basis: 50%;
   background-color: black;
 }
 .states h2 {
@@ -42,6 +51,11 @@ h1 {
   text-transform: uppercase;
   color: #c98986;
   font-size: 3rem;
+}
+@media (max-width: 800px) {
+  .states h2 {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 600px) {
