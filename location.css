@@ -5,6 +5,13 @@
   max-width: 100%;
   /* border: 1px solid grey; */
 }
+.mainContainer {
+  background-image: url(https://images.unsplash.com/photo-1548345680-f5475ea5df84?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 
 .textLocation {
   background-image: url(https://static.vecteezy.com/system/resources/previews/000/153/588/original/vector-roadmap-location-map.jpg);
@@ -44,8 +51,8 @@ h1 {
   }
   h1 {
     text-align: center;
-    padding: 20% 20%;
-    font-size: 4rem;
+    padding: 15% 15%;
+    font-size: 5rem;
     color: #c98986;
   }
   .states h2 {
