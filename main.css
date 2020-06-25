@@ -1,3 +1,5 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -82,6 +84,14 @@ h2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.links a:hover {
+  background-color: black;
+  color: #c98986;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 40px;
+  transition: 1s;
 }
 
 /* .welcome-text {
@@ -177,8 +187,14 @@ h1 {
   border-radius: 100px;
 }
 .caption h3 {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   color: #c98986;
+}
+.caption h4 {
+  font-size: 1.3rem;
+  text-align: justify;
+  white-space: normal;
+  font-family: "Caveat", cursive;
 }
 
 /* Footer Style Starts*/
@@ -223,6 +239,16 @@ h1 {
   }
   .text p {
     font-size: 1.5rem;
+  }
+  .caption h4 {
+    width: 100%;
+    font-size: 1.3rem;
+    text-align: justify;
+    white-space: normal;
+    font-family: "Caveat", cursive;
+  }
+  .teamOne {
+    width: 23%;
   }
 }
 

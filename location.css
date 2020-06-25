@@ -76,8 +76,5 @@ h1 {
   .stateContainer {
     flex-direction: column;
   }
-  .footer-links {
-    display: flex;
-    flex-direction: column;
-  }
+  
 }
