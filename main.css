@@ -93,6 +93,13 @@ h2 {
   border-radius: 40px;
   transition: 1s;
 }
+.main a {
+  transition: 2s;
+}
+.main a:hover {
+  opacity: 60%;
+  transition: 2s;
+}
 
 /* .welcome-text {
   height: 80vh;
