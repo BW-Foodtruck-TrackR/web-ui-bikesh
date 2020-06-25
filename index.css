@@ -10,12 +10,27 @@ header {
 }
 
 .main {
-  background-color: #ffffff;
-  background-color: #ffffff;
-  width: 350px;
+  background: rgba(0, 0, 0, 0.5);
+  width: 50%;
   height: 350px;
   margin: 7em auto;
   border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  padding: 0 4%;
+}
+.main a {
+  font-size: 2rem;
+  background: lightgray;
+  padding: 2% 2%;
+  width: 30%;
+  border-radius: 40px;
+  color: black;
+  font-weight: 600;
 }
 
 .sign {
@@ -93,4 +108,14 @@ form.form1 {
 a {
   color: #c98986;
   text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  .main h1 {
+    font-size: 2rem;
+  }
+  .main a {
+    font-size: 1.5rem;
+    width: 40%;
+  }
 }
